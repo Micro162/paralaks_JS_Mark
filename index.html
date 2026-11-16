@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+body {
+    background-color: #111;
+}
+
+.paralaksBox {
+    height: 600vh;
+    position: relative;
+}
+
+
+.foto1, .foto2, .foto3 {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex; 
+}
+
+.foto1 img, .foto2 img, .foto3 img {
+    width: 33.3vw;
+    height: 120vh; 
+}
+
+.foto2, .foto3 {
+    opacity: 0;
+}
+    </style>
+</head>
+
+<body>
+    <div class="paralaksBox">
+        <section class="foto1">
+            <img src="./images/sektor1foto1.png" alt="sektor1foto1" class="sectionOnefotoOne">
+            <img src="./images/sektor1foto2.png" alt="sektor1foto2" class="sectionOnefotoTwo">
+            <img src="./images/sektor1foto3.png" alt="sektor1foto3" class="sectionOnefotoThree">
+        </section>
+        <section class="foto2">
+            <img src="./images/sektor2foto1.png" alt="sektor2foto1" class="sectionTwofotoOne">
+            <img src="./images/sektor2foto2.png" alt="sektor2foto2" class="sectionTwofotoTwo">
+            <img src="./images/sektor2foto3.png" alt="sektor2foto3" class="sectionTwofotoThree">
+        </section>
+        <section class="foto3">
+            <img src="./images/sektor3foto1.png" alt="sektor3foto1" class="sectionThreefotoOne">
+            <img src="./images/sektor3foto2.png" alt="sektor3foto2" class="sectionThreefotoTwo">
+            <img src="./images/sektor3foto3.png" alt="sektor3foto3" class="sectionThreefotoThree">
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
